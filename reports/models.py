@@ -16,6 +16,6 @@ class Report(models.Model):
     lattitude = models.DecimalField(max_digits=9, decimal_places=6)
     longitude = models.DecimalField(max_digits=9, decimal_places=6)
     incident_type = models.CharField(choices=INCIDENT_CHOICES, max_length=20)
-    details = models.TextField()
-    picture = models.FileField()
+    details = models.TextField(blank=True, null=True)
+    picture = models.FileField(blank=True, null=True)
     date = models.DateTimeField(auto_now=True)
