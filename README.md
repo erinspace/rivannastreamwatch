@@ -9,7 +9,7 @@ API Models and start for providing an alternative data store for the form found 
 # Getting Started
 
 - clone the repository to your local machine
--(in a python virtualenv...) `pip install -r requirements.txt`
+- (in a python virtualenv...) `pip install -r requirements.txt`
 - `cd rivannastreamwatch`
 - `python manage.py migrate`
 - `python manage.py runserver`
